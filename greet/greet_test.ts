@@ -6,3 +6,13 @@ Deno.test("greet test", () => {
   const greeting = greet("Karni");
   assertEquals(greeting, "Hello, Karni");
 });
+
+Deno.test("greet test 2", () => {
+  const greeting = greet("ACM at CSUF!");
+  assertEquals(greeting, "Hello, ACM at CSUF!");
+});
+
+Deno.test("greet test 2", () => {
+  const greeting = greet("Ethan");
+  assertEquals(greeting, "Hello, Ethan");
+});
